@@ -12,10 +12,32 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var centerContainer: MMDrawerController!
+    let defaults = UserDefaults.standard
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let rootController = self.window!.rootViewController
+        let mainStoryboard : UIStoryboard = UIStoryboard(name: "Main", bundle: nil);
+        let loginViewController = mainStoryboard.instantiateViewController(withIdentifier: "LoginViewController") as! LoginViewController
+        let centerViewController = mainStoryboard.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
+        let navigationViewController = mainStoryboard.instantiateViewController(withIdentifier: "NavigationViewController") as! NavigationViewController
+        
+        let loginPage = UINavigationController(rootViewController: loginViewController)
+        let navigationPage = UINavigationController(rootViewController: navigationViewController)
+        let mainPage = UINavigationController(rootViewController: centerViewController)
+        
+        centerContainer = MMDrawerController(center: mainPage, leftDrawerViewController: navigationPage)
+        centerContainer!.openDrawerGestureModeMask = MMOpenDrawerGestureMode.panningCenterView
+        centerContainer!.closeDrawerGestureModeMask = MMCloseDrawerGestureMode.panningCenterView
+        
+        if defaults.bool(forKey:  "IS_LOGIN") && defaults.bool(forKey: "HAS_ACCESS"){
+            window!.rootViewController = centerContainer
+        }else{
+            window!.rootViewController = centerContainer // change this back to loginViewController after done with testing
+        }
+        
         return true
     }
 

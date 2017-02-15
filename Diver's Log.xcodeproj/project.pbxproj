@@ -14,6 +14,15 @@
 		A20564661E539AA100A5B643 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A20564641E539AA100A5B643 /* LaunchScreen.storyboard */; };
 		A20564711E539AA100A5B643 /* Diver_s_LogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20564701E539AA100A5B643 /* Diver_s_LogTests.swift */; };
 		A205647C1E539AA100A5B643 /* Diver_s_LogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A205647B1E539AA100A5B643 /* Diver_s_LogUITests.swift */; };
+		A20564951E53A53B00A5B643 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A205648D1E53A53B00A5B643 /* MMDrawerBarButtonItem.m */; };
+		A20564961E53A53B00A5B643 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = A205648F1E53A53B00A5B643 /* MMDrawerController.m */; };
+		A20564971E53A53B00A5B643 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = A20564921E53A53B00A5B643 /* MMDrawerVisualState.m */; };
+		A20564981E53A53B00A5B643 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = A20564941E53A53B00A5B643 /* UIViewController+MMDrawerController.m */; };
+		A205649A1E53AB3900A5B643 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20564991E53AB3900A5B643 /* NavigationViewController.swift */; };
+		A205649C1E53AB9800A5B643 /* NavigationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A205649B1E53AB9800A5B643 /* NavigationTableViewCell.swift */; };
+		A20564A21E53ADE500A5B643 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20564A11E53ADE500A5B643 /* HomeViewController.swift */; };
+		A20564A41E53AE0100A5B643 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20564A31E53AE0100A5B643 /* LoginViewController.swift */; };
+		A20564A71E53AE6100A5B643 /* LogBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20564A61E53AE6100A5B643 /* LogBookViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,21 @@
 		A20564771E539AA100A5B643 /* Diver's LogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Diver's LogUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A205647B1E539AA100A5B643 /* Diver_s_LogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diver_s_LogUITests.swift; sourceTree = "<group>"; };
 		A205647D1E539AA100A5B643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A205648B1E53A53B00A5B643 /* Diver's Log-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Diver's Log-Bridging-Header.h"; sourceTree = "<group>"; };
+		A205648C1E53A53B00A5B643 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMDrawerBarButtonItem.h; path = "../../../Libraries/iOS/MMDrawerController-master/MMDrawerController/MMDrawerBarButtonItem.h"; sourceTree = "<group>"; };
+		A205648D1E53A53B00A5B643 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMDrawerBarButtonItem.m; path = "../../../Libraries/iOS/MMDrawerController-master/MMDrawerController/MMDrawerBarButtonItem.m"; sourceTree = "<group>"; };
+		A205648E1E53A53B00A5B643 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMDrawerController.h; path = "../../../Libraries/iOS/MMDrawerController-master/MMDrawerController/MMDrawerController.h"; sourceTree = "<group>"; };
+		A205648F1E53A53B00A5B643 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMDrawerController.m; path = "../../../Libraries/iOS/MMDrawerController-master/MMDrawerController/MMDrawerController.m"; sourceTree = "<group>"; };
+		A20564901E53A53B00A5B643 /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MMDrawerController+Subclass.h"; path = "../../../Libraries/iOS/MMDrawerController-master/MMDrawerController/MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		A20564911E53A53B00A5B643 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMDrawerVisualState.h; path = "../../../Libraries/iOS/MMDrawerController-master/MMDrawerController/MMDrawerVisualState.h"; sourceTree = "<group>"; };
+		A20564921E53A53B00A5B643 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMDrawerVisualState.m; path = "../../../Libraries/iOS/MMDrawerController-master/MMDrawerController/MMDrawerVisualState.m"; sourceTree = "<group>"; };
+		A20564931E53A53B00A5B643 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+MMDrawerController.h"; path = "../../../Libraries/iOS/MMDrawerController-master/MMDrawerController/UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		A20564941E53A53B00A5B643 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+MMDrawerController.m"; path = "../../../Libraries/iOS/MMDrawerController-master/MMDrawerController/UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		A20564991E53AB3900A5B643 /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		A205649B1E53AB9800A5B643 /* NavigationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationTableViewCell.swift; sourceTree = "<group>"; };
+		A20564A11E53ADE500A5B643 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A20564A31E53AE0100A5B643 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A20564A61E53AE6100A5B643 /* LogBookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogBookViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +121,11 @@
 		A205645A1E539AA100A5B643 /* Diver's Log */ = {
 			isa = PBXGroup;
 			children = (
+				A20564A51E53AE5100A5B643 /* Log Book Controller */,
+				A205649E1E53ADCB00A5B643 /* Login Controller */,
+				A205649D1E53ADC500A5B643 /* Home Controller */,
+				A205648A1E53A4F000A5B643 /* Navigation Drawer */,
+				A20564891E53A4E700A5B643 /* Navigation Controller */,
 				A205645B1E539AA100A5B643 /* AppDelegate.swift */,
 				A205645D1E539AA100A5B643 /* ViewController.swift */,
 				A205645F1E539AA100A5B643 /* Main.storyboard */,
@@ -123,6 +152,56 @@
 				A205647D1E539AA100A5B643 /* Info.plist */,
 			);
 			path = "Diver's LogUITests";
+			sourceTree = "<group>";
+		};
+		A20564891E53A4E700A5B643 /* Navigation Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A205648C1E53A53B00A5B643 /* MMDrawerBarButtonItem.h */,
+				A205648D1E53A53B00A5B643 /* MMDrawerBarButtonItem.m */,
+				A205648E1E53A53B00A5B643 /* MMDrawerController.h */,
+				A205648F1E53A53B00A5B643 /* MMDrawerController.m */,
+				A20564901E53A53B00A5B643 /* MMDrawerController+Subclass.h */,
+				A20564911E53A53B00A5B643 /* MMDrawerVisualState.h */,
+				A20564921E53A53B00A5B643 /* MMDrawerVisualState.m */,
+				A20564931E53A53B00A5B643 /* UIViewController+MMDrawerController.h */,
+				A20564941E53A53B00A5B643 /* UIViewController+MMDrawerController.m */,
+				A205648B1E53A53B00A5B643 /* Diver's Log-Bridging-Header.h */,
+			);
+			name = "Navigation Controller";
+			sourceTree = "<group>";
+		};
+		A205648A1E53A4F000A5B643 /* Navigation Drawer */ = {
+			isa = PBXGroup;
+			children = (
+				A20564991E53AB3900A5B643 /* NavigationViewController.swift */,
+				A205649B1E53AB9800A5B643 /* NavigationTableViewCell.swift */,
+			);
+			name = "Navigation Drawer";
+			sourceTree = "<group>";
+		};
+		A205649D1E53ADC500A5B643 /* Home Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A20564A11E53ADE500A5B643 /* HomeViewController.swift */,
+			);
+			name = "Home Controller";
+			sourceTree = "<group>";
+		};
+		A205649E1E53ADCB00A5B643 /* Login Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A20564A31E53AE0100A5B643 /* LoginViewController.swift */,
+			);
+			name = "Login Controller";
+			sourceTree = "<group>";
+		};
+		A20564A51E53AE5100A5B643 /* Log Book Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A20564A61E53AE6100A5B643 /* LogBookViewController.swift */,
+			);
+			name = "Log Book Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +273,7 @@
 					A20564571E539AA100A5B643 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = B76P79Q988;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					A205646B1E539AA100A5B643 = {
@@ -262,7 +342,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A20564971E53A53B00A5B643 /* MMDrawerVisualState.m in Sources */,
 				A205645E1E539AA100A5B643 /* ViewController.swift in Sources */,
+				A20564951E53A53B00A5B643 /* MMDrawerBarButtonItem.m in Sources */,
+				A205649C1E53AB9800A5B643 /* NavigationTableViewCell.swift in Sources */,
+				A20564981E53A53B00A5B643 /* UIViewController+MMDrawerController.m in Sources */,
+				A20564A21E53ADE500A5B643 /* HomeViewController.swift in Sources */,
+				A20564A71E53AE6100A5B643 /* LogBookViewController.swift in Sources */,
+				A20564961E53A53B00A5B643 /* MMDrawerController.m in Sources */,
+				A205649A1E53AB3900A5B643 /* NavigationViewController.swift in Sources */,
+				A20564A41E53AE0100A5B643 /* LoginViewController.swift in Sources */,
 				A205645C1E539AA100A5B643 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,11 +502,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = B76P79Q988;
 				INFOPLIST_FILE = "Diver's Log/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cbmwebdevelopment.Diver-s-Log";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Diver's Log/Diver's Log-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -426,11 +518,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = B76P79Q988;
 				INFOPLIST_FILE = "Diver's Log/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cbmwebdevelopment.Diver-s-Log";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Diver's Log/Diver's Log-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
